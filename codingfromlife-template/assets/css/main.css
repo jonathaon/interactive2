@@ -10,16 +10,65 @@ body {
 	position: relative;
 }
 #matt {
-	width: 150px;
+	width: 620px;
 	height: 100px;
 	-webkit-transform: skew(20deg);
 	   -moz-transform: skew(20deg);
 	     -o-transform: skew(20deg);
 	background: red;
-	top: 500px;
-	left: 400px;
+	top: 370px;
+	left: 60px;
 	position: absolute;
 }
+#flower {
+	background: yellow;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    left: 140px;
+}
+
+}
+#flower1 {
+	background: yellow;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+          left: 140px;
+}
+#flower2 {
+	background: yellow;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    -webkit-transform: rotate(60deg);
+       -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+         -o-transform: rotate(60deg);
+         box-shadow: 11px -2px 5px -6px orange;
+          left: 140px;
+}
+#flower3 {
+	background: yellow;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    -webkit-transform: rotate(90deg);
+       -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+         -o-transform: rotate(90deg);
+          box-shadow: 11px -2px 5px -6px orange;
+          left: 140px;
+}
+
 #stem1 {
 	width: 10px;
 	height: 150px;
@@ -47,6 +96,7 @@ body {
 	border-radius: 150px;
 	top: 303px;
 	left: 100px;
+	box-shadow: 1px 18px 75px -6px black;
 	position: absolute;
 }
 
@@ -57,8 +107,10 @@ body {
 	border-radius: 150px;
 	top: 357px;
 	left: 354px;
+	box-shadow: -1px 13px 38px -6px black;
 	position: absolute;
 }
+
 #swanbody {
     width: 54px;
     border-width: 50px 18px 0;
@@ -66,6 +118,7 @@ body {
     border-color: pink transparent;
     top: 363px;
     left: 534px;
+
     position: absolute;
 }
 #swanneck3 {
