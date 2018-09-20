@@ -1,0 +1,234 @@
+body {
+	background: #cccccc;
+}
+
+
+#A {
+	width: 10px;
+	height: 70px;
+	background: black;
+	position: absolute;
+	top: 191px;
+	left: 199px;
+
+}
+#A2 {
+	width: 10px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	top: 249px;
+	left: 212px;
+	transform: rotate(-57deg);
+
+}
+#A3 {
+	width: 10px;
+	height: 43px;
+	background: black;
+	position: absolute;
+	top: 174px;
+	left: 216px;
+	transform: rotate(90deg);
+
+}
+#A4 {
+	width: 10px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	top: 186px;
+	left: 249px;
+	transform: rotate(-57deg);
+
+}
+#A5 {
+	width: 10px;
+	height: 70px;
+	background: black;
+	position: absolute;
+	top: 211px;
+	left: 262px;
+
+}
+#Adot {
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	top: 269px;
+	left: 223px;
+}
+#Adot2 {
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	top: 269px;
+	left: 256px;
+}
+
+#B {
+	width: 10px;
+	height: 70px;
+	background: black;
+	position: absolute;
+	top: 191px;
+	left: 400px;
+
+}
+#B2 {
+	width: 10px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	top: 249px;
+	left: 413px;
+	transform: rotate(-57deg);
+
+}
+#B3 {
+	width: 10px;
+	height: 43px;
+	background: black;
+	position: absolute;
+	top: 174px;
+	left: 417px;
+	transform: rotate(90deg);
+
+}
+#B4 {
+	width: 10px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	top: 186px;
+	left: 450px;
+	transform: rotate(-57deg);
+
+}
+#B5 {
+	width: 10px;
+	height: 140px;
+	background: black;
+	position: absolute;
+	top: 211px;
+	left: 463px;
+
+}
+#Bdot {
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	top: 269px;
+	left: 423px;
+}
+#Bdot2 {
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	top: 335px;
+	left: 456px;
+}
+
+#B1 {
+	position: relative;
+	transform: rotate(180deg);
+	top: 470px;
+}
+
+#C {
+	width: 10px;
+	height: 70px;
+	background: black;
+	position: absolute;
+	top: 191px;
+	left: 400px;
+
+}
+#C2 {
+	width: 10px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	top: 249px;
+	left: 413px;
+	transform: rotate(-57deg);
+
+}
+#C3 {
+	width: 10px;
+	height: 43px;
+	background: black;
+	position: absolute;
+	top: 174px;
+	left: 417px;
+	transform: rotate(90deg);
+
+}
+#C4 {
+	width: 10px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	top: 186px;
+	left: 450px;
+	transform: rotate(-57deg);
+
+}
+#C5 {
+	width: 10px;
+	height: 140px;
+	background: black;
+	position: absolute;
+	top: 211px;
+	left: 463px;
+
+}
+#Cdot {
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	top: 269px;
+	left: 423px;
+}
+#Cdot2 {
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	top: 335px;
+	left: 456px;
+}
+
+
+
+
+
+
+
+
+
+
+
