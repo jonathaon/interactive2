@@ -149,6 +149,16 @@ body {
 	position: relative;
 	transform: rotate(180deg);
 	top: 470px;
+	left: -10px;
+}
+
+#C1 {
+	top: 267px;
+	left: -120px;
+	position: relative;
+	transform: rotate(270deg);
+
+
 }
 
 #C {
@@ -160,16 +170,8 @@ body {
 	left: 400px;
 
 }
-#C2 {
-	width: 10px;
-	height: 37px;
-	background: black;
-	position: absolute;
-	top: 249px;
-	left: 413px;
-	transform: rotate(-57deg);
 
-}
+
 #C3 {
 	width: 10px;
 	height: 43px;
@@ -192,7 +194,7 @@ body {
 }
 #C5 {
 	width: 10px;
-	height: 140px;
+	height: 49px;
 	background: black;
 	position: absolute;
 	top: 211px;
@@ -207,10 +209,90 @@ body {
 	border-style: solid;
 	border-color: black;
 	position: absolute;
+	top: 252px;
+	left: 396px;
+}
+#Cdot2 {
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	top: 253px;
+	left: 457px;
+}
+
+#D1 {
+	position: absolute;
+	left: 234px;
+	top: 19px;
+	transform: rotate(0deg);
+
+
+	
+}
+#D {
+	width: 10px;
+	height: 70px;
+	background: black;
+	position: absolute;
+	top: 191px;
+	left: 400px;
+
+}
+#D2 {
+	width: 10px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	top: 249px;
+	left: 413px;
+	transform: rotate(-57deg);
+
+}
+#D3 {
+	width: 10px;
+	height: 43px;
+	background: black;
+	position: absolute;
+	top: 174px;
+	left: 417px;
+	transform: rotate(90deg);
+
+}
+#D4 {
+	width: 10px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	top: 186px;
+	left: 450px;
+	transform: rotate(-57deg);
+
+}
+#D5 {
+	width: 10px;
+	height: 140px;
+	background: black;
+	position: absolute;
+	top: 211px;
+	left: 463px;
+
+}
+#Ddot {
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
 	top: 269px;
 	left: 423px;
 }
-#Cdot2 {
+#Ddot2 {
 	width: 15px;
 	height: 15px;
 	background: white;
@@ -221,9 +303,6 @@ body {
 	top: 335px;
 	left: 456px;
 }
-
-
-
 
 
 
