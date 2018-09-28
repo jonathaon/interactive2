@@ -37,12 +37,12 @@ body {
     fill:#030202;
   }
 
-  .typefaceFrame: {
-    transition: 400ms all;
+  .typefaceFrame{
+    opacity: 0;
   }
-
   
   .offsetmv{
+    opacity: 1;
     animation: offsetprss 5000ms linear infinite;
   }
 
@@ -62,13 +62,6 @@ body {
 
   
 
- #A.special{
-    fill:#9C51A0;
-    transition: 20ms; 
-  }
-  
-
-
 
   #A{
     stroke: #9C51A0;
@@ -77,10 +70,7 @@ body {
     
   }
 
-  #A:hover  {
-    fill:#9C51A0;
-    transition: 20ms; 
-  }
+
 
     #B{
     stroke: green;
@@ -88,21 +78,14 @@ body {
     stroke-dasharray: 100;
   }
   
-  #B:hover  {
-    fill: green;
-    transition: 20ms; 
-  }
-  
+
+
   #C{
     stroke: orange;
     stroke-width: 4;
     stroke-dasharray: 100;
   }
   
-  #C:hover  {
-    fill: orange;
-    transition: 20ms; 
-  }
 
 
   #D{
@@ -111,10 +94,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #D:hover {
-    fill: blue;
-    transition: 20ms; 
-  }
+
 
   #E{
     stroke: pink;
@@ -122,10 +102,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #E:hover {
-    fill: pink;
-    transition: 20ms; 
-  }
+
 
   #F{
     stroke: red;
@@ -133,10 +110,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #F:hover {
-    fill: red;
-    transition: 20ms; 
-  }
+
 
   #G{
     stroke: lightblue;
@@ -144,10 +118,6 @@ body {
     stroke-dasharray: 100;
   }
   
-  #G:hover{
-    fill: lightblue;
-    transition: 20ms; 
-  }
 
   #H{
     stroke: #DF96C1;
@@ -155,10 +125,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #H:hover {
-    fill: #DF96C1;
-    transition: 20ms; 
-  }
+
 
   #I{
     stroke: #21FC15;
@@ -166,10 +133,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #I:hover  {
-    fill: #21FC15;
-    transition: 20ms; 
-  }
+
 
   #J{
     stroke: #16F9E3;
@@ -177,10 +141,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #J:hover {
-    fill: #16F9E3;
-    transition: 20ms; 
-  }
+  
 
   #K{
     stroke: #F97716;
@@ -188,10 +149,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #K:hover  {
-    fill: #F97716;
-    transition: 20ms; 
-  }
+
 
   #L{
     stroke: #16F972;
@@ -199,21 +157,14 @@ body {
     stroke-dasharray: 100;
   }
   
-  #L:hover  {
-    fill: #16F972;
-    transition: 20ms; 
-  }
 
   #M{
-    stroke: #0B381D;
+    stroke: lightblue;
     stroke-width: 4;
     stroke-dasharray: 100;
   }
   
-  #M:hover  {
-    fill: #0B381D;
-    transition: 20ms; 
-  }
+
 
   #N{
     stroke: #6BA583;
@@ -221,10 +172,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #N:hover  {
-    fill: #6BA583;
-    transition: 20ms; 
-  }
+
 
   #O{
     stroke: #A03D38;
@@ -232,10 +180,6 @@ body {
     stroke-dasharray: 100;
   }
   
-  #O:hover  {
-    fill: #A03D38;
-    transition: 20ms; 
-  }
 
   #P{
     stroke: #6B5D3E;
@@ -243,10 +187,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #P:hover  {
-    fill: #6B5D3E;
-    transition: 20ms; 
-  }
+
 
   #Q{
     stroke: #16F972;
@@ -254,10 +195,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #Q:hover  {
-    fill: #16F972;
-    transition: 20ms; 
-  }
+
 
   #R{
     stroke: #FFB000;
@@ -265,10 +203,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #R:hover  {
-    fill: #FFB000;
-    transition: 20ms; 
-  }
+
 
   #S{
     stroke: white;
@@ -276,10 +211,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #S:hover  {
-    fill: white;
-    transition: 20ms; 
-  }
+
 
   #T{
     stroke: blue;
@@ -287,10 +219,6 @@ body {
     stroke-dasharray: 100;
   }
   
-  #T:hover  {
-    fill: blue;
-    transition: 20ms; 
-  }
 
   #U{
     stroke: orange;
@@ -298,10 +226,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #U:hover  {
-    fill: orange;
-    transition: 20ms; 
-  }
+
 
   #V{
     stroke: grey;
@@ -309,10 +234,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #V:hover  {
-    fill: grey;
-    transition: 20ms; 
-  }
+
 
   #W{
     stroke: #FFB000;
@@ -320,10 +242,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #W:hover  {
-    fill: #FFB000;
-    transition: 20ms; 
-  }
+
 
   #X{
     stroke: red;
@@ -331,10 +250,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #X:hover  {
-    fill: red;
-    transition: 20ms; 
-  }
+
 
   #Y{
     stroke: white;
@@ -342,10 +258,7 @@ body {
     stroke-dasharray: 100;
   }
   
-  #Y:hover  {
-    fill: white;
-    transition: 20ms; 
-  }
+ 
 
   #Z{
     stroke: green;
@@ -353,7 +266,3 @@ body {
     stroke-dasharray: 100;
   }
   
-  #Z:hover  {
-    fill: green;  
-    transition: 20ms;
-  }
