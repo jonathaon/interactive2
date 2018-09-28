@@ -1,10 +1,5 @@
 body {
-	background: #cccccc;
-}
-
-
-#test1 {
-	animation: 
+	background: black;
 }
 
 
@@ -12,3 +7,353 @@ body {
 
 
 
+@keyframes Draw2 {
+  0% {
+  }
+  50% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+  }
+}
+
+@keyframes draw {
+  90% {
+    transform: scale(2.0);
+  }
+  100% {
+    transform: scale(2.1);
+  }
+}
+
+
+
+
+.cls-1{
+    fill:#fffeff;
+
+  }
+  
+  .cls-2{
+    fill:#030202;
+  }
+
+  .typefaceFrame: {
+    transition: 400ms all;
+  }
+
+  
+  .offsetmv{
+    animation: offsetprss 5000ms linear infinite;
+  }
+
+  @keyframes offsetprss {
+    0% {
+      stroke-dashoffset: 0;
+    }
+
+    50% {
+      stroke-dashoffset: -100;
+    }
+    
+    100% {
+      stroke-dashoffset: 1000;
+    }
+  }
+
+  
+
+ #A.special{
+    fill:#9C51A0;
+    transition: 20ms; 
+  }
+  
+
+
+
+  #A{
+    stroke: #9C51A0;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+    
+  }
+
+  #A:hover  {
+    fill:#9C51A0;
+    transition: 20ms; 
+  }
+
+    #B{
+    stroke: green;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #B:hover  {
+    fill: green;
+    transition: 20ms; 
+  }
+  
+  #C{
+    stroke: orange;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #C:hover  {
+    fill: orange;
+    transition: 20ms; 
+  }
+
+
+  #D{
+    stroke: blue;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #D:hover {
+    fill: blue;
+    transition: 20ms; 
+  }
+
+  #E{
+    stroke: pink;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #E:hover {
+    fill: pink;
+    transition: 20ms; 
+  }
+
+  #F{
+    stroke: red;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #F:hover {
+    fill: red;
+    transition: 20ms; 
+  }
+
+  #G{
+    stroke: lightblue;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #G:hover{
+    fill: lightblue;
+    transition: 20ms; 
+  }
+
+  #H{
+    stroke: #DF96C1;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #H:hover {
+    fill: #DF96C1;
+    transition: 20ms; 
+  }
+
+  #I{
+    stroke: #21FC15;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #I:hover  {
+    fill: #21FC15;
+    transition: 20ms; 
+  }
+
+  #J{
+    stroke: #16F9E3;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #J:hover {
+    fill: #16F9E3;
+    transition: 20ms; 
+  }
+
+  #K{
+    stroke: #F97716;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #K:hover  {
+    fill: #F97716;
+    transition: 20ms; 
+  }
+
+  #L{
+    stroke: #16F972;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #L:hover  {
+    fill: #16F972;
+    transition: 20ms; 
+  }
+
+  #M{
+    stroke: #0B381D;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #M:hover  {
+    fill: #0B381D;
+    transition: 20ms; 
+  }
+
+  #N{
+    stroke: #6BA583;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #N:hover  {
+    fill: #6BA583;
+    transition: 20ms; 
+  }
+
+  #O{
+    stroke: #A03D38;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #O:hover  {
+    fill: #A03D38;
+    transition: 20ms; 
+  }
+
+  #P{
+    stroke: #6B5D3E;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #P:hover  {
+    fill: #6B5D3E;
+    transition: 20ms; 
+  }
+
+  #Q{
+    stroke: #16F972;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #Q:hover  {
+    fill: #16F972;
+    transition: 20ms; 
+  }
+
+  #R{
+    stroke: #FFB000;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #R:hover  {
+    fill: #FFB000;
+    transition: 20ms; 
+  }
+
+  #S{
+    stroke: white;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #S:hover  {
+    fill: white;
+    transition: 20ms; 
+  }
+
+  #T{
+    stroke: blue;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #T:hover  {
+    fill: blue;
+    transition: 20ms; 
+  }
+
+  #U{
+    stroke: orange;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #U:hover  {
+    fill: orange;
+    transition: 20ms; 
+  }
+
+  #V{
+    stroke: grey;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #V:hover  {
+    fill: grey;
+    transition: 20ms; 
+  }
+
+  #W{
+    stroke: #FFB000;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #W:hover  {
+    fill: #FFB000;
+    transition: 20ms; 
+  }
+
+  #X{
+    stroke: red;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #X:hover  {
+    fill: red;
+    transition: 20ms; 
+  }
+
+  #Y{
+    stroke: white;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #Y:hover  {
+    fill: white;
+    transition: 20ms; 
+  }
+
+  #Z{
+    stroke: green;
+    stroke-width: 4;
+    stroke-dasharray: 100;
+  }
+  
+  #Z:hover  {
+    fill: green;  
+    transition: 20ms;
+  }
