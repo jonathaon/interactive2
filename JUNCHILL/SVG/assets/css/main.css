@@ -2,33 +2,7 @@ body {
 	background: black;
 }
 
-
-
-
-
-
-@keyframes Draw2 {
-  0% {
-  }
-  50% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 1;
-  }
-}
-
-@keyframes draw {
-  90% {
-    transform: scale(2.0);
-  }
-  100% {
-    transform: scale(2.1);
-  }
-}
-
-
-
-
-.cls-1{
+  .cls-1{
     fill:#fffeff;
 
   }
