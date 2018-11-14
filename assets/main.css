@@ -3,8 +3,9 @@ font-family: 'Merriweather', serif;
 }
 *{
 	background-color: black;
-
+	
 }
 .ridge {
 	color: white;
+	font-size: 30px;
 }
