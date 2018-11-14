@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Clock</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+	<style>
+*{
+		margin:0;
+		padding: 0;
+	}
+	.clock{
+		position: absolute;
+    top:20px;
+    left:20px;
+		width: 450px;
+		height: 450px;
+		background-color: black;
+		border-radius: 100%;
+		background-image: url("rolex_Watch.png");
+		background-size: 450px;
+	}
+	.transform{
+		width: 2px;
+		position: absolute;
+		left: 224px;
+		top: 43px;
+		-webkit-transform-origin:bottom;
+	}
+	#s{
+	
+		background-color: gold;
+		height: 171px;
+	}
+	#m{
+	
+		background-color: gold;
+		height: 140px;
+		top: 74px;
+		width: 7px;
+
+	}
+	#h{
+	
+		background-color: gold;
+		height: 93px;
+		width: 7px;
+		top: 122px;
+	}
+
+	#center{
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		top: 208px;
+		left: 221px;
+		background-color: gold;
+		border-radius: 100%;
+	}
+</style>
+
+</head>
+
+
+<body onload="tick()">
+
+	<div class="clock">
+		<div id="s" class="transform"></div>
+		<div id="m" class="transform"></div>
+		<div id="h" class="transform"></div>
+		<div id="center"> </div>
+			
+		</div>
+
+
+</body>
+
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/script.js"></script>
+</html>
