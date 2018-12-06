@@ -1,0 +1,260 @@
+body{
+  background-color: lightgrey;
+}
+
+.artwork1t{
+  position: absolute;
+  top: 1200px;
+  left: 840px;
+  width: 700px;
+  height: 500px;
+}
+
+.artwork2t{
+  position: absolute;
+  top: 1800px;
+  left: 0px;
+  width: 700px;
+  height: 900px;
+}
+
+.artwork3t{
+  position: absolute;
+  top: 2800px;
+  left: 775px;
+  width: 900px;
+  height: 700px;
+}
+
+.tiles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+  }
+
+.tile {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .photo {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .5s ease-out;
+  }
+
+
+.testPic1{
+  width: 200px;
+  height: auto;
+  position: absolute;
+  z-index: 200;
+  transition: .2s all;
+
+}
+
+.testPic2 {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  z-index: 200;
+  transition: .2s all;  
+}
+
+.testPic3 {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  z-index: 200;
+  transition: .2s all;  
+}
+
+.testPic4 {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  z-index: 200;
+  transition: .2s all;  
+}
+
+.testPic5 {
+  width: 600px;
+  height: auto;
+  position: absolute;
+  z-index: 200;
+  transition: .2s all;  
+}
+
+.testPic6 {
+  width: 1000px;
+  height: auto;
+  position: absolute;
+  z-index: 200;
+  transition: .2s all;  
+}
+
+.testPic7 {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  z-index: 200;
+  transition: .2s all;  
+}
+
+.testPic7 {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  z-index: 200;
+  transition: .2s all;  
+}
+
+
+
+.background {
+  position: absolute;
+  z-index: -100;
+  top: 20px;
+  width: 100%;
+
+
+  }
+.artist {
+  font-size: 200px;
+  position: absolute;
+  left: 25px;
+  top: -100px;
+}
+
+/*.Col {
+  position: absolute;
+  left: 750px;
+  top: 980px;
+  font-size: 20px;
+}*/
+
+/*.About {
+  position: absolute;
+  left: 360px;
+  top: 980px;
+  font-size: 20px;
+}*/
+
+/*.Con {
+  position: absolute;
+  left: 1200px;
+  top: 980px;
+  font-size: 20px;
+}*/
+
+/*.artwork1{
+  position: absolute;
+  top: 1054px;
+  left: 840px;
+}*/
+
+.info1 {
+  position: absolute;
+  top: 1300px;
+  left: 100px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.info1-1{
+  position: absolute;
+  top: 1370px;
+  left: 100px;
+  font-size: 15px;
+  font-weight: thin;
+}
+
+/*.artwork2 {
+  position: absolute;
+  top: 1900px;
+  left: 20px;
+}*/
+
+.info2 {
+  position: absolute;
+  top: 2080px;
+  left: 850px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.info2-2 {
+  position: absolute;
+  top: 2160px;
+  left: 850px;
+  font-size: 15px;
+}
+
+/*.artwork3 {
+  position: absolute;
+  top: 2800px;
+  left: 700px;
+}*/
+
+.info3 {
+position: absolute;
+  top: 3080px;
+  left: 100px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.info3-3 {
+  position: absolute;
+  top: 3158px;
+  left: 100px;
+  font-size: 15px;
+}
+
+.sflogo {
+  width: 150px;
+  position: absolute;
+  top: 4100px;
+  left: 750px;
+}
+
+.ny {
+  position: absolute;
+  top: 0px;
+  left: 750px;
+  color: grey;
+}
+
+.about {
+  position: absolute;
+  top: 3600px;
+  left: 800px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.aboutinfo {
+  position: absolute;
+  top: 3700px;
+  left: 450px;
+}
+
+.contact {
+  position: absolute;
+  top: 4000px;
+  left: 630px;
+  font-size: 100px;
+}
